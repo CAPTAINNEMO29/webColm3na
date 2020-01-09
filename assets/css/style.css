@@ -195,6 +195,58 @@ fieldset {
 .menu-bg .mainmenu .navbar-nav li a:hover {
     color: #158AF1;
 }
+a:hover{
+    color: #fff;
+}
+.nav-head{
+    opacity: 0.5;
+}
+
+.nav-btn{
+    
+    color: #062f88;
+    border: 2px solid #062f88;
+    border-radius: 25%;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.item-1,
+.item-2,
+.item-3{
+    min-height: 80vh;
+}
+.item-1{
+    background: url(../img/bg/back1.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+.item-2{
+    background: url(../img/bg/colm1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.item-3{
+    background: url(../img/bg/colm2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.carousel-caption{
+    bottom: 0px;
+}
+.banner-btn{
+    color: #1ffffa;
+    border: 2px solid #1ffffa;
+    transition: all ls ease;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.banner-btn:hover{
+    color: #2a9134;
+    background:#1ffffa;
+    transform: translateY(-7px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+}
+
 .welcome-hero-area,
 .welcome-slider-area,
 .welcome-hero-area,
@@ -1086,4 +1138,18 @@ ul.contact-list i {
 }
 .text-muted span {
     color: #158AF1;
+}
+@media screen and (max-width: 576px) {
+    .item-1,
+    .item-2,
+    .item-3, h1{
+       
+        font-size: 1.2rem;
+    }
+    .item-1,
+    .item-2,
+    .item-3, p{
+       
+        font-size: 0.8rem;
+    }
 }

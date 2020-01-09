@@ -1,417 +1,387 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>ColmenaLabs</title>
-        <link rel="shortcut icon" type="image/png" href="assets/img/coworkLogo.jpg" />
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
-        <!--69 66 20 79 6f 75 20 61 72 65 20 61 20 63 75 72 69 6f 75 73 20 70 65 72 73 6f 6e 20 61 6e 64 20 79 6f 75 20 70 6c 61 79 20 77 69 74 68 20 6f 75 72 20 48 54 4d 4c 20 63 6f 64 65 2c 20 79 6f 75 20 70 72 6f 62 61 62 6c 79 20 68 61 76 65 20 61 20 72 65 77 61 72 64 2c 20 6c 6f 6f 6b 20 66 6f 72 20 69 74 2c 20 61 6e 64 20 69 66 20 79 6f 75 20 66 69 6e 64 20 69 74 20 63 6f 6d 65 20 74 6f 20 43 6f 6c 6d 65 6e 61 20 74 6f 20 72 65 63 65 69 76 65 20 69 74 2e-->
-        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans|Lobster|Pacifico|Raleway|Shadows+Into+Light" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="assets/css/owl.carousel.css" rel="stylesheet">
-        <link href="assets/css/owl.transitions.css" rel="stylesheet">
-        <link href="assets/css/magnific-popup.css" rel="stylesheet">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <link href="assets/css/responsive.css" rel="stylesheet">
-        <!--Map-->
-        <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
-        <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
-    </head>
-    <body>
-        <div class="preloader">
-            <div class="status">
-                <div class="status-mes"></div>
-            </div>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ColmenaLabs</title>
+    <link rel="shortcut icon" type="image/png" href="assets/img/coworkLogo.jpg" />
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:400,500,600,700&amp;subset=latin-ext"
+        rel="stylesheet">
+    <!--69 66 20 79 6f 75 20 61 72 65 20 61 20 63 75 72 69 6f 75 73 20 70 65 72 73 6f 6e 20 61 6e 64 20 79 6f 75 20 70 6c 61 79 20 77 69 74 68 20 6f 75 72 20 48 54 4d 4c 20 63 6f 64 65 2c 20 79 6f 75 20 70 72 6f 62 61 62 6c 79 20 68 61 76 65 20 61 20 72 65 77 61 72 64 2c 20 6c 6f 6f 6b 20 66 6f 72 20 69 74 2c 20 61 6e 64 20 69 66 20 79 6f 75 20 66 69 6e 64 20 69 74 20 63 6f 6d 65 20 74 6f 20 43 6f 6c 6d 65 6e 61 20 74 6f 20 72 65 63 65 69 76 65 20 69 74 2e-->
+    <link
+        href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans|Lobster|Pacifico|Raleway|Shadows+Into+Light"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.transitions.css" rel="stylesheet">
+    <link href="assets/css/magnific-popup.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    <!--Map-->
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="status">
+            <div class="status-mes"></div>
         </div>
-        <header id="home" class="welcome-hero-area">
-            <div class="header-top-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="logo">
-                                <a href="index.html">ColmenaLabs</a>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="mainmenu">
-                                <div class="navbar navbar-nobg">
-                                    <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                        </button>
-                                    </div>
-                                    <div class="navbar-collapse collapse">
-                                        <ul class="nav navbar-nav navbar-right">
-                                            <li class="active"><a class="smoth-scroll" href="#home">Inicio</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" href="#about">Sobre nosotros</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" href="#services">Servicios</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" target="_blank" href="https://github.com/Colm3na">Github</a>
-                                            </li>
-                                            <li><a class="smoth-scroll" href="#contact">Contacto</a>
-                                            </li>
-                                        </ul>
-                                    </div>
+    </div>
+    <header id="home" class="welcome-hero-area">
+        <nav class="navbar navbar-expand-md fixed-top nav-head bg-dark">
+
+            <a class="navbar-brand text-uppercase" href="#">
+                <h3 class="text-info">colmenalabs</h3>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+
+                <span class="navbar-toggler-icon nav-btn">
+                    <i class="fas fa-bars"></i>
+                </span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end" id="myNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#home" class="acticve">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#about">sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" href="#services">servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" target="_blank" href="https://blog.colmenalabs.org/">blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase" target="_blank" href="https://github.com/Colm3na">github</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-uppercase" href="#contact">contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col no-padding">
+                    <div id="demo-slider" class="carousel slide" data-ride="carousel">
+                        <div class="div carousel-inner">
+                            <div class="carousel-item item-1 active">
+                                <div class="carousel-caption  text-center">
+                                    <h1 class=" text-capitalize mt-4 pt-4 font-weight-bold text-light">¿te gusta la
+                                        blockchain?</h1>
+                                    <p class="text-italic text-light">Un espacio abierto centrado en la tecnolgia
+                                        blockchain</p>
+                                    <p class="text-italic text-light">¿quieres aprender o mostrar algo?</p>
+                                    <p class="text-italic text-light">Unete a nosotros. ven a conocernos!</p>
+                                    <a href="#contact" class="btn btn-lg text-uppercase banner-btn">contacto</a>
+                                    <a target="_blank" href="https://blog.colmenalabs.org/"
+                                        class="btn btn-lg text-uppercase banner-btn">blog</a>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="welcome-slider-area">
-                <div id="welcome-slide-carousel" class="carousel slide carousel-fade" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#welcome-slide-carousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#welcome-slide-carousel" data-slide-to="1"></li>
-                        <li data-target="#welcome-slide-carousel" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="item active">
-                            <div class="single-slide-item slide-1">
-                                <div class="single-slide-item-table">
-                                    <div class="single-slide-item-table-cell">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <h2>¿Te gusta la blockchain?</h2>
-                                                    <p>Un espacio abierto centrado en la tecnología blockchain 
-                                                        <br/>¿Quieres aprender o mostrar algo?
-                                                        <br> Unete a nosotros, ven a conocernos!
-                                                    </p>
-                                                    <a class="slide-btn smoth-scroll" href="#contact">Contacto</a>
-                                                    <a class="slide-btn smoth-scroll" target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="carousel-item item-2">
+                                <div class="carousel-caption  text-center">
+                                    <h1 class=" text-capitalize mb-5 font-weight-bold text-info">Mentes inquietas</h1>
+                                    <p class="text-italic mb-5 text-light">Web 3.0 developers.
+                                        <br />Testers, DevOps, makers...
+                                    </p>
+                                    <a href="#contact" class="btn btn-lg text-uppercase banner-btn">contacto</a>
+                                    <a target="_blank" href="https://blog.colmenalabs.org/"
+                                        class="btn btn-lg text-uppercase banner-btn">blog</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-slide-item slide-2">
-                                <div class="single-slide-item-table">
-                                    <div class="single-slide-item-table-cell">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <h2>Mentes inquietas</h2>
-                                                    <p>Web 3.0 developers.
-                                                        <br/>Testers, DevOps, makers... 
-                                                    </p>                                               </p>
-                                                    <a class="slide-btn smoth-scroll" href="#contact">Contacto</a>
-                                                    <a class="slide-btn smoth-scroll" target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                            <div class="carousel-item item-3">
+                                <div class="carousel-caption  text-center">
+                                    <h1 class=" text-capitalize mb-5 font-weight-bold text-warning">Organizadores del
+                                        meetup <a target="_blank"
+                                            game="QnkgdGhlIHdheSB5b3UgY2FuIGZpbmQgc29tZXRoaW5nIGVsc2UgaW4gdGhlIENTUyBmb2xkZXIsIG9yIG1heWJlIGl0J3MgaW4gdGhlIEpTIGZvbGRlciBvciBldmVuIGluIGZvbnRzLCB3aG8ga25vd3MgaXQsIGdvb2QgbHVjayEhIGlmIHlvdSBmaW5kIHRoZSBzb2x1dGlvbiB3ZSB3aWxsIHN1cmVseSBzZWUgXl4="
+                                            href="http://meetu.ps/c/2B5BP/wtQqS/a">
+                                            Ξthereum Sevilla.</a></h1>
+                                    <p class="text-italic mb-5  text-light">Desde 2016 explicando como funciona
+                                        Ethereum.</p>
+                                    <a href="#contact" class="btn btn-lg text-uppercase banner-btn">contacto</a>
+                                    <a target="_blank" href="https://blog.colmenalabs.org/"
+                                        class="btn btn-lg text-uppercase banner-btn">blog</a>
                                 </div>
                             </div>
-                        </div>
-                        <div class="item">
-                            <div class="single-slide-item slide-3">
-                                <div class="single-slide-item-table">
-                                    <div class="single-slide-item-table-cell">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <h2>Organizadores del meetup <a target="_blank" game="QnkgdGhlIHdheSB5b3UgY2FuIGZpbmQgc29tZXRoaW5nIGVsc2UgaW4gdGhlIENTUyBmb2xkZXIsIG9yIG1heWJlIGl0J3MgaW4gdGhlIEpTIGZvbGRlciBvciBldmVuIGluIGZvbnRzLCB3aG8ga25vd3MgaXQsIGdvb2QgbHVjayEhIGlmIHlvdSBmaW5kIHRoZSBzb2x1dGlvbiB3ZSB3aWxsIHN1cmVseSBzZWUgXl4=" href="http://meetu.ps/c/2B5BP/wtQqS/a">
-                                                        Ξthereum Sevilla.</a>
-                                                    </h2>
-                                                    <p>Desde 2016 explicando como funciona Ethereum.</p>
-                                                    <a class="slide-btn smoth-scroll" href="#contact">Contacto</a>
-                                                    <a class="slide-btn smoth-scroll" target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="left welcome-control" href="#welcome-slide-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
-                        <a class="right welcome-control" href="#welcome-slide-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <section id="about" class="about-us-area section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="section-title text-center">
-                            <h2>Sobre nosotros</h2>
-                            <span></span>
-                            <p>Espacio de trabajo compartido
-                                <br>¿Tienes algo que contar o mostrar?
-                                <br>¡Pásate y habla con nosotros!
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="featured-area text-center">
-                        <div class="col-md-4 col-sm-4">
-                            <div class="single-featured">
-                                    <i class="fas fa-link"></i>
-                                <h4>Blockchain.</h4>
-                                <p>
-                                    Nos encanta la blockchain, sobre todo Ethereum.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="single-featured">
-                                <i class="fa fa-github-square"></i>
-                                <h4>Makers</h4>
-                                <p>Nos encanta aprender las nuevas tecnologías.</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <div class="single-featured">
-                                <i class="fab fa-ethereum"></i>
-                                <h4>Organizadores del meetup Ethereum Sevilla.</h4>
-                                <p>Desde el año 2016, enseñando el ecosistema Ethereum.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-12 col-sm-12 text-center">
-                    <div class="about-text">
-                        <h4>Bienvenidos a la Colmena.</h4>
-                        <p>Tu espacio de trabajo y presentaciones.</p>
-                        <p>Un sitio donde a tod@s nos encanta la blockchain y sus posibilidades, experimentar con ella y crear 
-                            nuevos proyectos.</p>
-                        <p>No sólo nos gusta la blockchain, somo makers inquietos.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="services" class="our-services-area gry-bg section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="section-title text-center">
-                            <h2>Nuestros servicios.</h2>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-service-box">
-                            <div class="service-icon">
-                                <i class="fas fa-book-open"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Charlas y presentaciones.</h4>
-                                <p>¿Tienes alguna presentación o charla que quieras exponer?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-service-box">
-                            <div class="service-icon">
-                                <i class="fas fa-broadcast-tower"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Nodos en varias redes para desarrolladores.</h4>
-                                <p>Mantenemos nodos para los desarrolladores en Ethereum, Bitcoin, Cosmos, Polkadot, Kusama ...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-service-box">
-                            <div class="service-icon">
-                                <i class="fas fa-street-view"></i>
-                            </div>
-                            <div class="service-content">
-                                <h4>Colaboramos con:</h4>
-                                <p>DappNode, Polkastats, Ethereum, Cosmos, Polkadot, Sentinel ...</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="great-started section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-sm-12">
-                        <div class="great-started-text text-center">
-                            <h2>¿Estas buscando un espacio para charlas o reuniones?</h2>
-                            <a class="get-start-btn smoth-scroll" href="#contact">Contacto</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="blog" class="our-blog-area gry-bg section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="section-title text-center">
-                            <h2>El espacio</h2>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-blog-post">
-                            <div class="single-blog-thumb">
-                                <img src="assets/img/blog/colm8.jpg" alt="" class="img-responsive" />
-                            </div>
-                            <div class="single-post-content">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-blog-post">
-                            <div class="single-blog-thumb">
-                                <img src="assets/img/blog/colm6.jpg" alt="" width="500" height="400" class="img-responsive" />
-                            </div>
-                            <div class="single-post-content">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6">
-                        <div class="single-blog-post">
-                            <div class="single-blog-thumb">
-                                <img src="assets/img/blog/colm5.jpg" alt="" class="img-responsive" />
-                            </div>
-                            <div class="single-post-content">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="center-block">
-                        <div class="single-blog-post">
-                            <div class="single-blog-thumb">
-                                <img src="assets/img/blog/colm7.jpg" alt="" class="img-responsive" />
-                            </div>
-                            <div class="single-post-content">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="contact" class="contact-us-area section-padding">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="section-title text-center">
-                            <h2>¿Quieres más info sobre el espacio 
-                                <br> o sobre nosotros?</h2>
-                            <span></span>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-12 center-block">
-                        <br>
-                        <br>
-                        <br>
-                        <div class="col-md-6 col-sm-4 single-featured text-center">
-                            <i class="fab fa-telegram"></i>
-                            <h6>Grupo de Telegram:</h6>
-                            <p>
-                                <a target="_blank" href="https://t.me/joinchat/E03hABDcrDu_K7nZhFk4gw">
-                                    Meetup Ethereum Sevilla.
-                                </a>
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-sm-4 single-featured text-center">
-                            <i class="fab fa-github-square"></i>
-                            <h6>Github:</h6>
-                            <p>
-                                <a target="_blank" href="https://github.com/Colm3na">
-                                    Github Colmena.
-                                </a>
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-sm-4 single-featured text-center">
-                            <i class="fa fa-twitter"></i>
-                            <h6>Twitter:</h6>
-                            <p>
-                                <a target="_blank" href="https://twitter.com/ColmenaLabs_svq">
-                                    ColmenaLabs.
-                                </a>
-                            </p>
-                        </div>
-                        <div class="col-md-6 col-sm-4 single-featured text-center">
-                            <i class="fab fa-meetup"></i>
-                            <h6>Meetup Ethereum Sevilla</h6>
-                            <p>
-                                <a target="_blank" href="http://meetu.ps/c/2B5BP/wtQqS/a">
-                                    Meetup Ethereum Sevilla.
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-sm-12">
-                        <div id="mapbox" class="mapbox"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="footer-area footer-bg section-padding">
-            <div class="footer-top-area">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="footer-widget">
-                                <div class="footer-menu">
-                                    <ul>
-                                        <li><a href="#">inicio</a>
-                                        </li>
-                                        <li><a href="#about">sobre nosotros</a>
-                                        </li>
-                                        <li><a href="#services">servicios</a>
-                                        </li>
-                                        <li><a target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
-                                        </li>
-                                        <li><a href="#contact">contacto</a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+
                         </div>
 
-                        <div class="col-md-6 col-sm-6">
-                            <div class="footer-widget">
-                                <h4 class="footer-logo">Información de contacto</h4>
-                                <div class="footer-contact">
-                                    <div class="single-contact-info">
-                                        <i class="fa fa-map-marker"></i>
-                                        <h6>dirección:</h6>
-                                        <p>Av del Barerrillo 9 Local 6B Bormujos, Sevilla.</p>
-                                    </div>
-                                    <div class="single-contact-info">
-                                        <i class="fab fa-telegram"></i>
-                                        <h6>Grupo de telegram:</h6>
-                                        <p><a target="_blank" href="https://t.me/joinchat/E03hABDcrDu_K7nZhFk4gw">Meetup Ethereum Sevilla</a></p>
-                                    </div>
-                                    <div class="single-contact-info">
-                                        <i class="fa fa-twitter"></i>
-                                        <h6>twitter:</h6>
-                                        <p><a target="_blank" href="https://twitter.com/ColmenaLabs_svq">ColmenaLabs_svq</a></p>
-                                    </div>
-                                    <div class="single-contact-info">
-                                        <i class="fab fa-meetup"></i>
-                                        <h6>Meetup Ethereum Sevilla:</h6>
-                                        <p><a target="_blank" href="http://meetu.ps/c/2B5BP/wtQqS/a">Meetup Ethereum Sevilla.</a></p>
-                                    </div>
+                        <a href="#demo-slider" class="carousel-control-prev" roule="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                            <span class="class-sr-only">Previous</span>
+                        </a>
+                        <a href="#demo-slider" class="carousel-control-next" roule="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                            <span class="class-sr-only">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="bg-white">
+        <div class="container">
+
+            <div class="row">
+                <div class="col text-center">
+                    <h1 class="display-6 text-uppercase text-dark mb-0">
+                        <strong>Sobre nosotros</strong>
+                    </h1>
+                    <div class="title-underline bg-danger"></div>
+                    <p class="mt-2 text-capitalize text-muted">Espacio de trabajo compartido
+                        <br>¿Tienes algo que contar o mostrar?
+                        <br>¡Pásate y habla con nosotros!</p>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-6 col-lg-4 text-center my-4 single-featured">
+                    <i class="fas fa-link"></i>
+                    <h3 class="text-uppercase my-3">Blockchain.</h3>
+                    <p class="text-muted">Nos encanta la blockchain, sobre todo Ethereum.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-center my-4 single-featured">
+                    <i class="fa fa-github-square"></i>
+                    <h3 class="text-uppercase my-3">Makers</h3>
+                    <p class="text-muted">Nos encanta aprender las nuevas tecnologías.</p>
+                </div>
+
+                <div class="col-md-6 col-lg-4 text-center my-4 single-featured">
+                    <i class="fab fa-ethereum"></i>
+                    <h3 class="text-uppercase my-3">Organizadores del meetup Ethereum Sevilla.</h3>
+                    <p class="text-muted">Desde el año 2016, enseñando el ecosistema Ethereum.</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-sm-12 text-center">
+                <div class="about-text">
+                    <h4>Bienvenidos a la Colmena.</h4>
+                    <p>Tu espacio de trabajo y presentaciones.</p>
+                    <p>Un sitio donde a tod@s nos encanta la blockchain y sus posibilidades, experimentar con ella y crear 
+                        nuevos proyectos.</p>
+                    <p>No sólo nos gusta la blockchain, somo makers inquietos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services" class="our-services-area gry-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h2>Nuestros servicios.</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Charlas y presentaciones.</h4>
+                            <p>¿Tienes alguna presentación o charla que quieras exponer?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-broadcast-tower"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Nodos en varias redes para desarrolladores.</h4>
+                            <p>Mantenemos nodos para los desarrolladores en Ethereum, Bitcoin, Cosmos, Polkadot, Kusama
+                                ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="single-service-box">
+                        <div class="service-icon">
+                            <i class="fas fa-street-view"></i>
+                        </div>
+                        <div class="service-content">
+                            <h4>Colaboramos con:</h4>
+                            <p>DappNode, Polkastats, Ethereum, Cosmos, Polkadot, Sentinel ...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="great-started section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="great-started-text text-center">
+                        <h2>¿Estas buscando un espacio para charlas o reuniones?</h2>
+                        <a class="get-start-btn smoth-scroll" href="#contact">Contacto</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="blog" class="our-blog-area gry-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h2>El espacio</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+
+            <div class="row py-3">
+
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="assets/img/blog/colm8.jpg" class="img-fluid" alt="espacio">
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 my-3">
+                    <img src="assets/img/blog/colm6.jpg" class="img-fluid" alt="espacio">
+                </div>
+
+
+                <div class="col-sm-6 col-md-4 my-3 mx-auto">
+                    <img src="assets/img/blog/colm5.jpg" class="img-fluid" alt="espacio">
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <section id="contact" class="contact-us-area section-padding">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="section-title text-center">
+                        <h2>¿Quieres más info sobre el espacio
+                            <br> o sobre nosotros?</h2>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 center-block">
+                    <br>
+                    <br>
+                    <br>
+                    <div class="col-md-6 col-sm-4 single-featured text-center">
+                        <i class="fab fa-telegram"></i>
+                        <h6>Grupo de Telegram:</h6>
+                        <p>
+                            <a target="_blank" href="https://t.me/joinchat/E03hABDcrDu_K7nZhFk4gw">
+                                Meetup Ethereum Sevilla.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-4 single-featured text-center">
+                        <i class="fab fa-github-square"></i>
+                        <h6>Github:</h6>
+                        <p>
+                            <a target="_blank" href="https://github.com/Colm3na">
+                                Github Colmena.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-4 single-featured text-center">
+                        <i class="fa fa-twitter"></i>
+                        <h6>Twitter:</h6>
+                        <p>
+                            <a target="_blank" href="https://twitter.com/ColmenaLabs_svq">
+                                ColmenaLabs.
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 col-sm-4 single-featured text-center">
+                        <i class="fab fa-meetup"></i>
+                        <h6>Meetup Ethereum Sevilla</h6>
+                        <p>
+                            <a target="_blank" href="http://meetu.ps/c/2B5BP/wtQqS/a">
+                                Meetup Ethereum Sevilla.
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div id="mapbox" class="mapbox"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer-area footer-bg section-padding">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row justify-content-around">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="footer-widget">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">inicio</a>
+                                    </li>
+                                    <li><a href="#about">sobre nosotros</a>
+                                    </li>
+                                    <li><a href="#services">servicios</a>
+                                    </li>
+                                    <li><a target="_blank" href="https://blog.colmenalabs.org/">Blog</a>
+                                    </li>
+                                    <li><a href="#contact">contacto</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-6">
+                        <div class="footer-widget">
+                            <h4 class="footer-logo">Información de contacto</h4>
+                            <div class="footer-contact">
+                                <div class="single-contact-info">
+                                    <i class="fa fa-map-marker"></i>
+                                    <h6>dirección:</h6>
+                                    <p>Av del Barerrillo 9 Local 6B Bormujos, Sevilla.</p>
+                                </div>
+                                <div class="single-contact-info">
+                                    <i class="fab fa-telegram"></i>
+                                    <h6>Grupo de telegram:</h6>
+                                    <p><a target="_blank" href="https://t.me/joinchat/E03hABDcrDu_K7nZhFk4gw">Meetup
+                                            Ethereum Sevilla</a></p>
+                                </div>
+                                <div class="single-contact-info">
+                                    <i class="fa fa-twitter"></i>
+                                    <h6>twitter:</h6>
+                                    <p><a target="_blank" href="https://twitter.com/ColmenaLabs_svq">ColmenaLabs_svq</a>
+                                    </p>
+                                </div>
+                                <div class="single-contact-info">
+                                    <i class="fab fa-meetup"></i>
+                                    <h6>Meetup Ethereum Sevilla:</h6>
+                                    <p><a target="_blank" href="http://meetu.ps/c/2B5BP/wtQqS/a">Meetup Ethereum
+                                            Sevilla.</a></p>
                                 </div>
                             </div>
                         </div>
@@ -419,135 +389,136 @@
                 </div>
             </div>
         </div>
-        <footer class="footer-bottom-area footer-bottom-bg">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <div class="footer-text text-center">
-                            <p class="text-muted"><span>Made with <i class="fas fa-heartbeat"></i> in</span> <a target="_blank" href="https://github.com/Colm3na">ColmenaLabs_svq <i class="fa fa-github"></i></a></p>
-                        </div>
+    </div>
+    <footer class="footer-bottom-area footer-bottom-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-text text-center">
+                        <p class="text-muted"><span>Made with <i class="fas fa-heartbeat"></i> in</span> <a
+                                target="_blank" href="https://github.com/Colm3na">ColmenaLabs_svq <i
+                                    class="fa fa-github"></i></a></p>
                     </div>
                 </div>
             </div>
-        </footer>
-        <div class="scroll-to-up">
-            <div class="scrollup">
-                <i class="fa fa-angle-up"></i>
-            </div>
         </div>
-        <script src="assets/js/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/owl.carousel.min.js"></script>
-        <script src="assets/js/jquery.mixitup.js"></script>
-        <script src="assets/js/jquery.easing.1.3.js"></script>
-        <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
-        <!--openMap-->
-        <script>
-            mapboxgl.accessToken = 'pk.eyJ1Ijoid2ltZWwiLCJhIjoiY2s0OG4ya3ljMDNrNjNlcGJ3cm1lYXZhYSJ9.BE4z_jw3JSI0yv8Q4TxWpg';
+    </footer>
+    <div class="scroll-to-up">
+        <div class="scrollup">
+            <i class="fa fa-angle-up"></i>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/jquery.mixitup.js"></script>
+    <script src="assets/js/jquery.easing.1.3.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+    <!--openMap-->
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1Ijoid2ltZWwiLCJhIjoiY2s0OG4ya3ljMDNrNjNlcGJ3cm1lYXZhYSJ9.BE4z_jw3JSI0yv8Q4TxWpg';
         var mapbox = new mapboxgl.Map({
-        container: 'mapbox',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-6.06, 37.37],
-        /*Coord Colmena:
-            37.379475, -6.070332
-        */
-        zoom: 11.15
+            container: 'mapbox',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [-6.06, 37.37],
+            /*Coord Colmena:
+                37.379475, -6.070332
+            */
+            zoom: 11.15
         });
-         
-        mapbox.on('load', function() {
-        // Add a layer showing the places.
-        mapbox.addLayer({
-        'id': 'places',
-        'type': 'symbol',
-        'source': {
-        'type': 'geojson',
-        'data': {
-        'type': 'FeatureCollection',
-        'features': [
-        {
-        'type': 'Feature',
-        'properties': {
-        'description':
-        '<strong>ColmenaLabs_svq</strong><p><a href="https://www.colmenalabs.org/" target="_blank" title="Nueva ventana">ColmenaLabs</a> es un espacio abierto centrado en la tecnología blockchain para makers, DevOps, desarrolladores web3.0...</p>',
-        'icon': 'rocket'
-        },
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-6.070332, 37.379475]
-        }
-        },
 
-        {
-        'type': 'Feature',
-        'properties': {
-        'description':
-        '<strong><a href="https://www.metro-sevilla.es/es/linea-1" target="_blank" title="Nueva ventana">Estacion de metro de San Juan Alto</a></strong><p> es una de las paradas mas cercanas a la Colmena</p>',
-        'icon': 'car'
-        },
-        'geometry': {
-        'type': 'Point',
-        /*Coor Metro:
-        37.361574, -6.038411 
-        */
-        'coordinates': [-6.038411, 37.361574]
-        }
-        }
-        /*
-        {
-        'type': 'Feature',
-        'properties': {
-        'description':
-        '<strong>nota1</strong><p>nota2<a href="http://tallulaeatbar.ticketleap.com/2012beachblanket/" target="_blank" title="Nueva ventana">enlace1</a> nota3.</p>',
-        'icon': 'bar'
-        },
-        'geometry': {
-        'type': 'Point',
-        'coordinates': [-77.090372, 38.881189]
-        }
-        },
-        */
-        ]
-        }
-        },
-        'layout': {
-        'icon-image': '{icon}-15',
-        'icon-allow-overlap': true
-        }
-        });
-         
-        // When a click event occurs on a feature in the places layer, open a popup at the
-        // location of the feature, with description HTML from its properties.
-        mapbox.on('click', 'places', function(e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
-         
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
-         
-        new mapboxgl.Popup()
-        .setLngLat(coordinates)
-        .setHTML(description)
-        .addTo(mapbox);
-        });
-         
-        // Change the cursor to a pointer when the mouse is over the places layer.
-        mapbox.on('mouseenter', 'places', function() {
-            mapbox.getCanvas().style.cursor = 'pointer';
-        });
-         
-        // Change it back to a pointer when it leaves.
-        mapbox.on('mouseleave', 'places', function() {
-            mapbox.getCanvas().style.cursor = '';
-        });
+        mapbox.on('load', function () {
+            // Add a layer showing the places.
+            mapbox.addLayer({
+                'id': 'places',
+                'type': 'symbol',
+                'source': {
+                    'type': 'geojson',
+                    'data': {
+                        'type': 'FeatureCollection',
+                        'features': [{
+                                'type': 'Feature',
+                                'properties': {
+                                    'description': '<strong>ColmenaLabs_svq</strong><p><a href="https://www.colmenalabs.org/" target="_blank" title="Nueva ventana">ColmenaLabs</a> es un espacio abierto centrado en la tecnología blockchain para makers, DevOps, desarrolladores web3.0...</p>',
+                                    'icon': 'rocket'
+                                },
+                                'geometry': {
+                                    'type': 'Point',
+                                    'coordinates': [-6.070332, 37.379475]
+                                }
+                            },
+
+                            {
+                                'type': 'Feature',
+                                'properties': {
+                                    'description': '<strong><a href="https://www.metro-sevilla.es/es/linea-1" target="_blank" title="Nueva ventana">Estacion de metro de San Juan Alto</a></strong><p> es una de las paradas mas cercanas a la Colmena</p>',
+                                    'icon': 'car'
+                                },
+                                'geometry': {
+                                    'type': 'Point',
+                                    /*Coor Metro:
+                                    37.361574, -6.038411 
+                                    */
+                                    'coordinates': [-6.038411, 37.361574]
+                                }
+                            }
+                            /*
+                            {
+                            'type': 'Feature',
+                            'properties': {
+                            'description':
+                            '<strong>nota1</strong><p>nota2<a href="http://tallulaeatbar.ticketleap.com/2012beachblanket/" target="_blank" title="Nueva ventana">enlace1</a> nota3.</p>',
+                            'icon': 'bar'
+                            },
+                            'geometry': {
+                            'type': 'Point',
+                            'coordinates': [-77.090372, 38.881189]
+                            }
+                            },
+                            */
+                        ]
+                    }
+                },
+                'layout': {
+                    'icon-image': '{icon}-15',
+                    'icon-allow-overlap': true
+                }
+            });
+
+            // When a click event occurs on a feature in the places layer, open a popup at the
+            // location of the feature, with description HTML from its properties.
+            mapbox.on('click', 'places', function (e) {
+                var coordinates = e.features[0].geometry.coordinates.slice();
+                var description = e.features[0].properties.description;
+
+                // Ensure that if the map is zoomed out such that multiple
+                // copies of the feature are visible, the popup appears
+                // over the copy being pointed to.
+                while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                }
+
+                new mapboxgl.Popup()
+                    .setLngLat(coordinates)
+                    .setHTML(description)
+                    .addTo(mapbox);
+            });
+
+            // Change the cursor to a pointer when the mouse is over the places layer.
+            mapbox.on('mouseenter', 'places', function () {
+                mapbox.getCanvas().style.cursor = 'pointer';
+            });
+
+            // Change it back to a pointer when it leaves.
+            mapbox.on('mouseleave', 'places', function () {
+                mapbox.getCanvas().style.cursor = '';
+            });
         });
         // Add zoom and rotation controls to the map.
         mapbox.addControl(new mapboxgl.NavigationControl());
-        </script>
-    </body>
+    </script>
+</body>
+
 </html>
